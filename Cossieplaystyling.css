@@ -1,0 +1,153 @@
+body {
+	background-image: url(abstract.jpg);
+	background-repeat: no-repeat, repeat;
+	background-position: right bottom, left top;
+	background-color: #FC0;
+	height: 900px;
+	color: #000;
+	font-style: italic;
+	font-variant: normal;
+	font-weight: bold;
+	padding: 5px;
+	font-size: medium;
+}
+	
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #000000;
+}
+h1 {
+    
+	text-align: left;
+}
+
+li {
+	float: left;
+	font-size: medium;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+	background-color: #990;
+}
+
+@keyframes slider{
+	0%{
+		left: 0%;
+		}
+	20%{
+		left:-10%;
+		}
+	25%{
+		left:-20%;
+		}
+	45%{
+		left:-20%;;
+		}
+	50%{
+		left:-30%
+		}
+	70%{
+		left:-30%;
+		}
+	75%{
+		left:-20%;
+		}			
+	95%{
+		left:-20%;
+		}
+	100%{
+		left:0%;
+		}			
+}
+#slider{
+	overflow: hidden
+	}
+#slider figure img{
+	width: 5%;
+	float: left;
+	}
+#slider figure {
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	right:0;
+	text-align: left;
+	font-size: 0;
+	animation: 15s slider infinite ;
+	}					
+		
+
+.float-img{
+	float:right;
+	clear:right;
+	margin-left:10px; 
+	margin-bottom: 5px; 
+	border:solid black 1 px; 
+	padding: 2px
+}
+
+.secondary_header {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 1px;
+	padding-bottom: 20px;
+}
+.copyright {
+	padding-top: 10px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+.active {
+	background-color: #000000;
+}
+ .navigationbar {
+      padding-top: 8px;
+      padding-bottom: 8spx;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 2px;
+  }
+
+.fixed-bg {
+    background-image: url();
+     
+   
+max-width:100%;
+max-height:100%;
+background-attachment: fixed;
+    
+background-position: center;
+    
+background-repeat: no-repeat;
+    
+background-size: cover;
+body {
+	background-image: url(abstract.jpg);
+	background-repeat: no-repeat, repeat;
+	background-position: right bottom, left top;
+	height: 900px;
+	color: #000;
+	font-style: italic;
+	font-variant: normal;
+	font-weight: bold;
+	padding: 5px
+}
+
+
